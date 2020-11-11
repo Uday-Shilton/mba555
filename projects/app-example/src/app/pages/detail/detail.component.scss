@@ -26,21 +26,31 @@
       width: 100%;
     }
 
+    .splitterTop {
+      margin-top: 20px;
+    }
+
+    .readRow {
+      width: 100%;
+    }
     .fieldLabel {
       font-size: var(--app-text-size--md);
       color: var(--app-color-text-primary);
       font-weight: strong;
-      margin-left: 20px;
-      width: 200px;
-      padding: 10px;
+      width: 160px;
+      display: inline-block;
+      vertical-align: top;
+      padding: 5px 20px;
     }
 
     .fieldValue {
       font-size: var(--app-text-size--md);
       color: var(--app-color-text-primary);
       font-weight: normal;
-      width: 200px;
       display: inline-block;
+      width: 250px;
+      vertical-align: top;
+      padding: 5px 20px;
     }
 
     h1 {
